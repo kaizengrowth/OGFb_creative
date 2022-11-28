@@ -1,5 +1,4 @@
 # (Re)Creating OG Facebook 
-*[circa 2006]*
 
 Welcome to your first React code-along lecture. Over the next three days, we are going to be building out an old school Facebook page, using Docker, Node, functional React components, React hooks, React Router, and Bootstrap for styling.
 
@@ -7,7 +6,7 @@ But don't feel constrained by history or the limits of current web conventions. 
 
 The goal of this exploration is to get you comfortable with some of the fundamental concepts of React, so that you have the tools you need to build out your Conference Go app and your Module 2 projects.
 
-<img src="https://iili.io/HKisQou.png" width="500">
+<img src="https://www.shareaholic.com/blog/wp-content/uploads/2012/05/Facebook-2004.jpg" width="500">
 
 
 ### INSTRUCTIONS
@@ -18,8 +17,9 @@ there are various checkpoints implemented throughout the lecture.
 If you fall behind during the live lecture, wait until the next 
 checkpoint, and then run `git checkout` on the next branch. 
 
-In each branch's repo, you will find an image of what the completed 
-app should look like up to that point.
+In the assets folder of the main branch, and in each branch's README, 
+you will find an image of what the completed app should look like up 
+to that point.
 
 While you're studying on your own, clone a clean copy of this 
 repository, and see if you can go through each of the steps and 
@@ -47,6 +47,8 @@ reproduce the entire app on the Main branch.
 * **04_Stories** -- Add Story.js components to your Feed.js container, and destructure the data object to display the properties of each story.
 * **05_LikeButton** -- Implement a "Like" button using the React hook: useState(), and add conditional rendering so that you can only click "like" once.
 
+
+---
 
 ### Afternoon Lecture
 ==== **TOPICS** ====
