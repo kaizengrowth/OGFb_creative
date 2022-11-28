@@ -20,6 +20,12 @@ export default function Feed () {
             'status': 'I am dreaming of not being a total idiot.',
             'time': 'November 29, 2006, 9:00pm',
             'likes': 1000,
+        },
+        {
+            'name': 'Kimberly Bryant',
+            'status': 'I am making dreams come true.',
+            'time': 'November 30, 2006, 11:00pm',
+            'likes': 10000,
         }
     ]
 
