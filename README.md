@@ -9,8 +9,8 @@ The goal of this exploration is to get you comfortable with some of the fundamen
 
 <img src="https://iili.io/HKisQou.png" width="500">
 
-------------------------------------
 
+{% note %}
 ### INSTRUCTIONS
 
 In order to help you keep up with live-coding during the lecture, there are various checkpoints implemented throughout the lecture. If you fall behind during the live lecture, wait until the next checkpoint, and then run `git checkout` on the next branch. 
@@ -18,6 +18,8 @@ In order to help you keep up with live-coding during the lecture, there are vari
 In each branch's repo, you will find an image of what the completed app should look like up to that point.
 
 While you're studying on your own, clone a clean copy of this repository, and see if you can go through each of the steps and reproduce the entire app on the Main branch.
+
+{% endnote %}
 
 ------------------------------------
 
