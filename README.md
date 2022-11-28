@@ -31,7 +31,7 @@ While you're studying on your own, clone a clean copy of this repository, and se
 3. Functional components & Component hierarchy
 4. Props & State
 5. Array Destructuring 
-6. useState (React Hooks)
+6. **useState** (React Hooks)
 7. Styling your component with vanilla CSS
 
 ------- **BRANCHES** -------
@@ -44,11 +44,11 @@ While you're studying on your own, clone a clean copy of this repository, and se
 
 ### Afternoon Lecture
 ==== **TOPICS** ====
-1. Fetch and useEffect() -- Making API calls
+1. Fetch and **useEffect()** -- Making API calls
 2. Adding Bootstrap to React
 3. Formatting Dates
 
 ------- **BRANCHES** -------
 * **06_Bootstrap** -- Install the **React-Bootstrap** library to restyle your button and navbar using Bootstrap components.
 * **07_DateTime** -- Handle Datetime objects, and format your dates in different ways using the **date-fns** library.
-* **08_Fetch** -- Make a Fetch request using the React hook: useEffect()
+* **08_Fetch** -- Make a Fetch request using the React hook: **useEffect()**
