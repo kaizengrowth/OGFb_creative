@@ -1,9 +1,9 @@
 const MenuItem = (props) => {
-  const numbers = props.numbers;  
+  const link = props.link;  
   return (
     <>
         {/* <h5>Item 1</h5> */}
-        <h5>Item {numbers}</h5>
+        <h5>{link}</h5>
     </>
   )
 }

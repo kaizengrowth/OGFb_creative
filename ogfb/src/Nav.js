@@ -4,18 +4,15 @@ import MenuItem from './MenuItem'
 
 export default function Nav () {
 
-  const numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+  const links = ["home", "search", "global", "invite", "faq", "logout"]
 
   return( 
     <>
         <img src={logo} className="App-logo" alt="logo" />
-        {/* <MenuItem numbers={numbers[0]} />
-        <MenuItem numbers={numbers[1]} />
-        <MenuItem numbers={numbers[2]} /> */}
 
         {
-            numbers.map( (number, key ) => 
-                <MenuItem numbers={number} key={key} />)
+            links.map( (link, key ) => 
+                <MenuItem link={link} key={key} />)
         }
 
     </>
