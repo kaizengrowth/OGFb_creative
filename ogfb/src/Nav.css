@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    background-color: #3C5998;
+    height: 35px;
+    color: white;
+    margin-top: -15px;
+}
+
+.menuItem {
+    flex: 1;
+    font-size: 12px;
+}
+
+.menuItem :hover {
+    color: #5487D8;
+}
