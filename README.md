@@ -7,7 +7,7 @@ But don't feel constrained by history or the limits of current web conventions. 
 
 The goal of this exploration is to get you comfortable with some of the fundamental concepts of React, so that you have the tools you need to build out your Conference Go app and your Module 2 projects.
 
-![Your app at the end of Day 1](https://freeimage.host/i/HKisQou | height=50)
+<img src="https://freeimage.host/i/HKisQou" height="50">
 
 =====
 
