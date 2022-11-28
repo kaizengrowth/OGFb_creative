@@ -22,6 +22,21 @@ The goal of this exploration is to get you comfortable with some of the fundamen
 6. useState (React Hooks)
 7. Styling your component with vanilla CSS
 
-=== ** BRANCHES** ===
+=== **BRANCHES** ===
 * **01_Dockerfile** -- Spinning up a Node container with React and displaying "Hello World!"
 * **02_NavBar** -- Creating a NavBar and passing props from parent to child component
+* **03_NavBar_VanillaStyling** -- Add vanilla CSS to your Navbar, using Flexbox and Grid, and add a story Feed.js to your Main container
+* **04_Stories** -- Add Story.js components to your Feed.js container, and destructure the data object to display the properties of each story.
+* **05_LikeButton** -- Implement a "Like" button using the React hook: useState(), and add conditional rendering so that you can only click "like" once.
+
+
+### Afternoon Instructions
+==== **TOPICS** ====
+8. Fetch and useEffect() -- Making API calls
+9. Adding Bootstrap to React
+10. Formatting Dates
+
+=== **BRANCHES** ===
+* **06_Bootstrap** -- Install the **React-Bootstrap** library to restyle your button and navbar using Bootstrap components.
+* **07_DateTime** -- Handle Datetime objects, and format your dates in different ways using the **date-fns** library.
+* **08_Fetch** -- Make a Fetch request using the React hook: useEffect()
