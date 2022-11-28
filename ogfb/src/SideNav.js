@@ -14,7 +14,6 @@ export default function SideNav () {
     fetchData()
     .then(randomStatus => setStatus(randomStatus))
     .catch(console.error);
-
     
   }, [])
 
