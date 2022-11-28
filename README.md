@@ -1,8 +1,9 @@
-# (Re)Creating OG Facebook (circa 2006)
+# (Re)Creating OG Facebook 
+*(circa 2006)*
 
 Welcome to your first React code-along lecture. Over the next three days, we are going to be building out an old school Facebook page, using Docker, Node, functional React components, React hooks, React Router, and Bootstrap for styling.
 
-But don't feel constrained by history, template styles, or the limitations of web conventions. Be creative, and make this page your own.
+But don't feel constrained by history or the limits of current web conventions. Be creative, and make this page your own.
 
 The goal of this exploration is to get you comfortable with some of the fundamental concepts of React, so that you have the tools you need to build out your Conference Go app and your Module 2 projects.
 
@@ -19,3 +20,8 @@ The goal of this exploration is to get you comfortable with some of the fundamen
 4. Props & State
 5. Array Destructuring 
 6. useState (React Hooks)
+7. Styling your component with vanilla CSS
+
+=== ** BRANCHES** ===
+* **01_Dockerfile** -- Spinning up a Node container with React and displaying "Hello World!"
+* **02_NavBar** -- Creating a NavBar and passing props from parent to child component
