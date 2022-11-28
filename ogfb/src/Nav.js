@@ -9,9 +9,15 @@ export default function Nav () {
   return( 
     <>
         <img src={logo} className="App-logo" alt="logo" />
-        <MenuItem numbers={numbers[0]} />
+        {/* <MenuItem numbers={numbers[0]} />
         <MenuItem numbers={numbers[1]} />
-        <MenuItem numbers={numbers[2]} />
+        <MenuItem numbers={numbers[2]} /> */}
+
+        {
+            numbers.map( number => 
+                <MenuItem numbers={number} />)
+        }
+
     </>
   )
 }
