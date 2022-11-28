@@ -1,5 +1,5 @@
 # (Re)Creating OG Facebook 
-*(circa 2006)*
+*[circa 2006]*
 
 Welcome to your first React code-along lecture. Over the next three days, we are going to be building out an old school Facebook page, using Docker, Node, functional React components, React hooks, React Router, and Bootstrap for styling.
 
@@ -9,7 +9,7 @@ The goal of this exploration is to get you comfortable with some of the fundamen
 
 <img src="https://iili.io/HKisQou.png" width="500">
 
-=====
+------------------------------------
 
 ### INSTRUCTIONS
 
