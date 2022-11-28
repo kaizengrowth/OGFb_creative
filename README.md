@@ -11,7 +11,7 @@ The goal of this exploration is to get you comfortable with some of the fundamen
 
 ## Day 1.  Intro to React with Docker
 
-### Morning Instructions
+### Morning Lecture
 
 ==== **TOPICS** ====
 1. Node in a Docker container
@@ -30,11 +30,11 @@ The goal of this exploration is to get you comfortable with some of the fundamen
 * **05_LikeButton** -- Implement a "Like" button using the React hook: useState(), and add conditional rendering so that you can only click "like" once.
 
 
-### Afternoon Instructions
+### Afternoon Lecture
 ==== **TOPICS** ====
-8. Fetch and useEffect() -- Making API calls
-9. Adding Bootstrap to React
-10. Formatting Dates
+1. Fetch and useEffect() -- Making API calls
+2. Adding Bootstrap to React
+3. Formatting Dates
 
 === **BRANCHES** ===
 * **06_Bootstrap** -- Install the **React-Bootstrap** library to restyle your button and navbar using Bootstrap components.
