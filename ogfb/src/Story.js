@@ -9,7 +9,7 @@ const Story = (props) => {
         <p className="name">{name}</p>
         <p className="time">{time}</p>
         <p className="status">{status}</p>
-        <p className="likes">Likes: {likes}</p>
+        <button className="likes">💙 {likes}</button>
         <hr/>
     </div>
   )
