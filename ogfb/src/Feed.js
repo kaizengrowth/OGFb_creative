@@ -25,9 +25,11 @@ export default function Feed () {
 
     return(
       <div className="feed">
-        <Story post={posts[0]} />
-        <Story post={posts[1]} />
-        <Story post={posts[2]} />
+        {
+            posts.map( (post, key ) => 
+                <Story post={post} key={key} />
+            )
+        }
       </div>
     )    
 }
