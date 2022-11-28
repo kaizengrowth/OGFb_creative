@@ -14,8 +14,8 @@ export default function Nav () {
         <MenuItem numbers={numbers[2]} /> */}
 
         {
-            numbers.map( number => 
-                <MenuItem numbers={number} />)
+            numbers.map( (number, key ) => 
+                <MenuItem numbers={number} key={key} />)
         }
 
     </>
