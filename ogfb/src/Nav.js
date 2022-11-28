@@ -9,7 +9,9 @@ export default function Nav () {
   return( 
     <>
         <img src={logo} className="App-logo" alt="logo" />
-        <MenuItem numbers={numbers} />
+        <MenuItem numbers={numbers[0]} />
+        <MenuItem numbers={numbers[1]} />
+        <MenuItem numbers={numbers[2]} />
     </>
   )
 }

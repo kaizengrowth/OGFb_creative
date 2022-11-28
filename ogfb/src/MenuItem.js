@@ -3,7 +3,7 @@ const MenuItem = (props) => {
   return (
     <>
         {/* <h5>Item 1</h5> */}
-        <h5>Item {numbers[0]}</h5>
+        <h5>Item {numbers}</h5>
     </>
   )
 }
