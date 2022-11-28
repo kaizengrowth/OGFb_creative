@@ -1,4 +1,5 @@
-# (Re)Creating OG Facebook *[circa 2006]*
+# (Re)Creating OG Facebook 
+*[circa 2006]*
 
 Welcome to your first React code-along lecture. Over the next three days, we are going to be building out an old school Facebook page, using Docker, Node, functional React components, React hooks, React Router, and Bootstrap for styling.
 
