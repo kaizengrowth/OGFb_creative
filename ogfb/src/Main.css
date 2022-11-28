@@ -12,3 +12,33 @@
     border: 1px dotted gray;
     height: 300px;
 }
+
+.story {
+    text-align: left;
+    margin-left: 20px;
+    line-height: 4px;
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 12px;
+    color: #3C5998;
+}
+
+.time {
+    font-style: italic;
+    font-size: 9px;
+    color: gray;
+    font-weight: 400;
+}
+
+.status {
+    font-size: 10px;
+    color: rgb(107, 96, 96);
+    font-weight: 600;
+}
+
+.likes {
+    font-size: 8px;
+    color: blue;
+}

@@ -5,12 +5,13 @@ const Story = (props) => {
     const {name, status, time, likes} = props.post;
 
   return(
-    <>
-        <p>{name}</p>
-        <p>{time}</p>
-        <p>{status}</p>
-        <p>{likes}</p>
-    </>
+    <div className="story">
+        <p className="name">{name}</p>
+        <p className="time">{time}</p>
+        <p className="status">{status}</p>
+        <p className="likes">Likes: {likes}</p>
+        <hr/>
+    </div>
   )
 }
 
