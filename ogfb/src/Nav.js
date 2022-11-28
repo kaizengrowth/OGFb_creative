@@ -3,10 +3,13 @@ import './App.css';
 import MenuItem from './MenuItem'
 
 export default function Nav () {
+
+  const numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+
   return( 
     <>
         <img src={logo} className="App-logo" alt="logo" />
-        <MenuItem />
+        <MenuItem numbers={numbers} />
     </>
   )
 }
