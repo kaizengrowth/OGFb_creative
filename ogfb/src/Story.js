@@ -5,9 +5,16 @@ const Story = (props) => {
     const {name, status, time, likes} = props.post;
 
     const [hearts, setHearts] = useState(likes + 3);
+    const [liked, setLiked] = useState(false);
 
     const handleClick = () => {
-      setHearts(hearts+1);
+      if (liked === false) {
+        setHearts(hearts+1);
+        setLiked(true);
+      } else {
+        setHearts(hearts-1);
+        setLiked(false);
+      }
     }
 
   return(
