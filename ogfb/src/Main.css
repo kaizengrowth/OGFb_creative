@@ -4,12 +4,10 @@
 }
 
 .sideNav {
-    border: 1px dotted gray;
-    height: 350px;
+    /* border: 1px dotted gray; */
 }
 
 .feed {
-    /* border: 1px dotted gray; */
     height: 300px;
 }
 
@@ -41,4 +39,9 @@
 .likes {
     font-size: 8px;
     color: #3C5998;
+}
+
+button {
+    height: 30px;
+    font-size: 10px;
 }

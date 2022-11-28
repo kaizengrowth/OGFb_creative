@@ -3,6 +3,7 @@ import logo from './old_fb_banner.png';
 import './App.css';
 import Nav from './Nav';
 import Main from './Main';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

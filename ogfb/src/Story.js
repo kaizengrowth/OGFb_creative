@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import Button from 'react-bootstrap/Button';
 
 const Story = (props) => {
 
@@ -22,7 +23,7 @@ const Story = (props) => {
         <p className="name">{name}</p>
         <p className="time">{time}</p>
         <p className="status">{status}</p>
-        <button onClick={handleClick} className="likes">💙 {hearts}</button>
+        <Button onClick={handleClick} className="likes">💙 {hearts}</Button>
         <hr/>
     </div>
   )
