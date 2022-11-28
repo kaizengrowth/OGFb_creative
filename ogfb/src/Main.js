@@ -1,21 +1,13 @@
 import './App.css';
+import SideNav from './SideNav';
+import Feed from './Feed';
+import './Main.css';
 
 export default function Main() {
     return( 
-      <>
-        <header className="App-header">  
-            <p>
-            Hello, the Book of Face: 🎉!
-            </p>
-            <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            I'm learning React.
-            </a>
-        </header>
-      </>
+        <div className='mainContainer'>  
+            <SideNav />
+            <Feed />
+        </div>
     )
   }

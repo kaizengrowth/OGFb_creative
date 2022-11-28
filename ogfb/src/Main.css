@@ -1,0 +1,14 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.sideNav {
+    border: 1px dotted gray;
+    height: 300px;
+}
+
+.feed {
+    border: 1px dotted gray;
+    height: 300px;
+}
