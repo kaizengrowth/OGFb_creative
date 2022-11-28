@@ -1,7 +1,13 @@
+import Story from './Story'
+
 export default function Feed () {
     return(
       <div className="feed">
-        <p>Feed</p>
+        <h3>Feed</h3>
+        <Story />
+        <Story />
+        <Story />
+        <Story />
       </div>
     )    
 }
