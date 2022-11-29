@@ -17,9 +17,8 @@ there are various checkpoints implemented throughout the lecture.
 If you fall behind during the live lecture, wait until the next 
 checkpoint, and then run `git checkout` on the next branch. 
 
-In the assets folder of the main branch, and in each branch's README, 
-you will find an image of what the completed app should look like up 
-to that point.
+In the assets folder of this main branch, you will find an image 
+of what the completed app should look like up to that point.
 
 While you're studying on your own, clone a clean copy of this 
 repository, and see if you can go through each of the steps and 
