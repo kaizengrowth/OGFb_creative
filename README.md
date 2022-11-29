@@ -4,8 +4,7 @@ Welcome to your first React code-along lecture. Over the next three days, we are
 
 But don't feel constrained by history or the limits of current web conventions. Be creative, and make this page your own.
 
-Here are the slides that go with this lecture:
-https://docs.google.com/presentation/d/18vMdjEzXV9_MdWwNd-5oSYXxuvN8HMUvdFIUJpGmf2E/edit?usp=sharing
+Here are the [slides](https://docs.google.com/presentation/d/18vMdjEzXV9_MdWwNd-5oSYXxuvN8HMUvdFIUJpGmf2E/edit?usp=sharing) that go with this lecture.
 
 The goal of this exploration is to get you comfortable with some of the fundamental concepts of React, so that you have the tools you need to build out your Conference Go app and your Module 2 projects.
 
