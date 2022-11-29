@@ -6,9 +6,14 @@ export default function SideNav () {
 
   useEffect(() => {
     const fetchData = async() => {
-      const response = await fetch('https://www.boredapi.com/api/activity');
-      const data = await response.json();
-      return data['activity'];
+      try {
+        const response = await fetch('https://www.boredapi.com/api/activity');
+        const data = await response.json();
+        return data['activity'];
+      } 
+      catch (err) {
+        console.error(err);
+      }      
     }
     
     fetchData()
