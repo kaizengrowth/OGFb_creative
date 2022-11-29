@@ -4,6 +4,9 @@ Welcome to your first React code-along lecture. Over the next three days, we are
 
 But don't feel constrained by history or the limits of current web conventions. Be creative, and make this page your own.
 
+Here are the slides that go with this lecture:
+https://docs.google.com/presentation/d/18vMdjEzXV9_MdWwNd-5oSYXxuvN8HMUvdFIUJpGmf2E/edit?usp=sharing
+
 The goal of this exploration is to get you comfortable with some of the fundamental concepts of React, so that you have the tools you need to build out your Conference Go app and your Module 2 projects.
 
 <img src="https://www.shareaholic.com/blog/wp-content/uploads/2012/05/Facebook-2004.jpg" width="500">
@@ -18,7 +21,7 @@ If you fall behind during the live lecture, wait until the next
 checkpoint, and then run `git checkout` on the next branch. 
 
 In the assets folder of this main branch, you will find an image 
-of what the completed app should look like up to that point.
+of what the completed app should look like at each checkpoint.
 
 While you're studying on your own, clone a clean copy of this 
 repository, and see if you can go through each of the steps and 
