@@ -1,11 +1,27 @@
 import React from 'react';
 import { format } from 'date-fns'
+import './Main.css';
 
 class Form extends React.Component {
     state = {
         name: 'Kai',
         status: '🐕',
-        time: ''
+        time: '',
+        logged: false
+    }
+
+    handleInputChange = (event) => {
+        const name = event.target.name;
+        const value = event.target.value;
+
+        this.setState({
+            [name] : value}
+        );
+    }
+
+    handleSubmit = (event) => {
+        event.preventDefault();
+        alert(this.state.name + ' will ' + (this.state.status).toLowerCase());
     }
 
     componentDidMount() {
@@ -24,13 +40,18 @@ class Form extends React.Component {
         return (
             <div className='form'>
                 <h3>{this.state.name}</h3>
-                {/* <p>Guessed Age: </p> */}
                 <p><b>Suggested Activity:</b> {this.state.status}</p>
 
-                <form>
-                    <input  type='text' placeholder='Name' name="name" />
+                <form onSubmit={this.handleSubmit} >
+                    <input onChange={this.handleInputChange} type='text' placeholder='Name' name="name" />
 
-                    <input type='text' placeholder='Status' name="status" />
+                    <br/>
+                    <br/>
+
+                    <input onChange={this.handleInputChange} placeholder={this.state.status} name='status' />
+
+                    <br/>
+                    <br/>
 
                     <input type='submit' value='Submit' />
 
