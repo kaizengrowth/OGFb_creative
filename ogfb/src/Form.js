@@ -5,23 +5,37 @@ class Form extends React.Component {
     state = {
         name: 'Kai',
         status: '🐕',
-        time: '',
-        likes: 0
+        time: ''
+    }
+
+    componentDidMount() {
+        fetch('https://www.boredapi.com/api/activity')
+            .then(response => response.json())
+            .then(data => {
+                this.setState({
+                    'status' : data['activity']
+                });
+            }, (error) => {
+                console.log(error);
+            });
     }
 
     render() {
         return (
-            <>
-                <h3 className="name">{this.state.name}</h3>
-                <p className="time">{this.state.time}</p>
-                <p>{this.state.status}</p>
-                <input type="text" onChange={
-                    e => this.setState({
-                        status: e.target.value,
-                        time: format(Date.now(), 'PPPPpppp')
-                    })} 
-                />
-            </>
+            <div className='form'>
+                <h3>{this.state.name}</h3>
+                {/* <p>Guessed Age: </p> */}
+                <p><b>Suggested Activity:</b> {this.state.status}</p>
+
+                <form>
+                    <input  type='text' placeholder='Name' name="name" />
+
+                    <input type='text' placeholder='Status' name="status" />
+
+                    <input type='submit' value='Submit' />
+
+                </form>
+            </div>
         )
     }
 }
